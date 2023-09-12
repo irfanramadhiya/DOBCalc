@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //widget init
         val btnDatePicker: Button = findViewById(R.id.btnDatePicker)
         val tvSelectedDate: TextView = findViewById(R.id.tvSelectedDate)
         val tvAgeInMinutes: TextView = findViewById(R.id.tvAgeInMinutes)
